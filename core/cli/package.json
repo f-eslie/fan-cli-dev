@@ -1,0 +1,31 @@
+{
+  "name": "@fan-cli-dev/core",
+  "version": "1.0.7",
+  "description": "> TODO: description",
+  "author": "fanzhijie <869944346@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "bin": {
+    "fan-cli-dev": "bin/index.js"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "0195ffd87d47cd0579f05da6e6f9a05088ab95cb",
+  "dependencies": {
+    "@fan-cli-dev/utils": "file:../../utils/utils",
+    "import-local": "^3.1.0",
+    "npmlog": "^6.0.2"
+  }
+}
