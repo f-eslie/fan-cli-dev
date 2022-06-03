@@ -14,10 +14,11 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com"
+    "registry": "https://registry.npmmirror.com",
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "d8bc8d18bc7a681f2f39687422fd79f8bcbce324"
+  "gitHead": "b7bba4f1f299e020b2f7307620aad3994d63b151"
 }
